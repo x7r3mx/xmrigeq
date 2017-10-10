@@ -16,8 +16,8 @@
     "threads": null,
     "pools": [
         {
-            "url": "nicehash.gpu360.com:3355",
-            "user": "33MQmd3LSueY4gxSCXSJLrmVxtQ6WTQqJP.xmrig",
+            "url": "mine.moneropool.com:3333",
+            "user": "47H7tKGJKE1CPrvWHcm9N4PgLdKwWYw8QWV2V9Txy3NhRFK9TW7McxxN88GLbVXpNUZ3c3PjT8iCE9FEiD8JpvEgJfL5rWc",
             "pass": "x",
             "keepalive": true,
             "nicehash": true
