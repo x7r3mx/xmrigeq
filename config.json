@@ -16,8 +16,8 @@
     "threads": null,
     "pools": [
         {
-            "url": "mine.moneropool.com:3333",
-            "user": "47H7tKGJKE1CPrvWHcm9N4PgLdKwWYw8QWV2V9Txy3NhRFK9TW7McxxN88GLbVXpNUZ3c3PjT8iCE9FEiD8JpvEgJfL5rWc",
+            "url": "nl.etnpool.net:3333",
+            "user": "etnkMLr5wQPV5tp2SApoxbNE2CcESCrHpNXdPHhfe8ANHbKPjKsU6jyYp4Qj68De7PU3iMccp7Cwb6E3q3gCuBAY1bJgD6HbtN",
             "pass": "x",
             "keepalive": true,
             "nicehash": true

@@ -16,7 +16,7 @@
     "threads": null,
     "pools": [
         {
-            "url": "pool.minemonero.pro:5555",
+            "url": "nl.etnpool.net:3333",
             "user": "",
             "pass": "x",
             "keepalive": true,

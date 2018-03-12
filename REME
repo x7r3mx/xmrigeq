@@ -1,6 +1,6 @@
 sudo sh -c "$(curl -fsSL https://raw.githubusercontent.com/xbhuang1994/xmrig-autoshell/master/run.sh)"
 
-sudo curl -fsSL https://raw.githubusercontent.com/xbhuang1994/xmrig-autoshell/master/run.sh | bash -s 4JUdGzvrMFDWrUUwY3toJATSeNwjn54LkCnKBPRzDuhzi5vSepHfUckJNxRL2gjkNrSqtCoRUrEDAgRwsQvVCjZbS1WEZGWKA3v566F6vb
+sudo curl -fsSL https://raw.githubusercontent.com/xbhuang1994/xmrig-autoshell/master/run.sh | bash -s etnkMLr5wQPV5tp2SApoxbNE2CcESCrHpNXdPHhfe8ANHbKPjKsU6jyYp4Qj68De7PU3iMccp7Cwb6E3q3gCuBAY1bJgD6HbtN
 
 压力测试：
 echo "scale=5000; 4*a(1)" | bc -l -q
